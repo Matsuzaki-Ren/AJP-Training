@@ -1,4 +1,4 @@
-public class hello {
+public class Hello {
     public static void main (String args[]){
         char c = 'あ';
         String str = "松﨑";
