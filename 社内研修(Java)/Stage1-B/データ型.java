@@ -3,7 +3,7 @@ public class Hello {
         char c = 'あ';
         String str = "松﨑";
         int number = 10;
-        boolean bool = 10 / 2 == 5;
+        boolean bool = true;
         String date = "4月13日";
         System.out.println("文字型:" + c);
         System.out.println("文字列型:" + str);
