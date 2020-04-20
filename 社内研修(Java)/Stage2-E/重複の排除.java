@@ -1,7 +1,9 @@
 import java. util.*;
 public class Hello7{
     public static void main(String[] args){
+        //文字列fruitsを宣言
         String fruits = "apple/orrange/apple/grape/orrange";
+        //splitを使用しを使用し、分割する。
         String[] fruitsname = fruits.split("/", 0);
         List<String> fruitsList = new ArrayList<>();
          for (int i = 0; fruitsname.length > i ; i++){
