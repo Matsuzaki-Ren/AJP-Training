@@ -14,9 +14,10 @@ public class Stage3C {
         
         //5つ目のファイルを確認した時、1つ目を削除する
         if(file5.exists()){
-            System.out.println("5つ目のファイルが作られたため、1つ目を削除しする");
+            System.out.println("5つ目のファイルが作られたため、1つ目を削除する");
             file1.delete(); 
         }
+        
         
     }
  
