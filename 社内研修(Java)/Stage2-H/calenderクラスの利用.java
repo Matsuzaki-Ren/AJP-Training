@@ -19,7 +19,15 @@ public class Stage2H {
           // 1秒加算する
         cl.add(Calendar.SECOND, 1);
         
-        System.out.println(sdf.format(cl.getTime()));}
+         try {
+         Thread.sleep(1000); 
+         }
+         catch (InterruptedException e) {
+         }
+        
+        System.out.println(sdf.format(cl.getTime()));
+            
+        }
         
         System.out.println("20秒カウント終わりました");
     }
