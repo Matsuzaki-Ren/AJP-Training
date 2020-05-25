@@ -14,7 +14,7 @@ public class Stage2E{
                  for (int n = i + 1; fruitsname.length > n; n++){
                      if (fruitsname[i].equals(fruitsname[n])){
                          fruitsList.add(fruitsname[i]);
-                         System.out.println(fruitsname[i]);
+                         System.out.println(i + 1 + ":" + fruitsname[i]);
                          
                      }
                  }
@@ -22,3 +22,4 @@ public class Stage2E{
          }
     }
 }
+ 
