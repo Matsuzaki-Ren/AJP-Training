@@ -15,7 +15,7 @@ class Stage2C{
     System.out.println("桁数:{" + len + "}");
     
     //文字列の頭文字を取得  
-     System.out.println("頭文字:{" + str.substring(0) + "}");
+     System.out.println("頭文字:{" + str.substring(0,1) + "}");
     //文字列の語尾を取得
      System.out.println("語尾;{" + str.substring(str.length()-1) + "}");
   
