@@ -20,7 +20,10 @@ class Stage2C{
      System.out.println("語尾;{" + str.substring(str.length()-1) + "}");
   
    if (str.contains("A")){
-        System.out.println("文字列にAを含む：{Yes, No}");
+        System.out.println("文字列にAを含む：{Yes}");
         }
+        else{
+        System.out.println("文字列にAを含む：{No}");
+   }
   }
 }
