@@ -12,8 +12,5 @@ public class Stage2F{
         week.add("friday");
         week.add("saturday");
         week.add("sunday");
-        System.out.println(week);
-        
     }
 }
-
