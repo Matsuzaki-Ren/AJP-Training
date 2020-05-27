@@ -31,14 +31,19 @@ public class Stage2GG {
 		map.put("SATURDAY", "(土曜日)");
 		map.put("SUNDAY", "(日曜日)");
 		
+		//Iteratorを用いてmapの要素にアクセスする
 		Iterator entries = map.entrySet().iterator();
- 
+        
+        //mapに格納した要素を出力し終わるまでループ処理
 		while(entries.hasNext()){
 		    
 		     Map.Entry entry = (Map.Entry)entries.next();
 		     
+		     //keyに格納したlistの要素を文字列で出力
 		     String keyName = (String)entry.getKey();
+		     //valueに格納した要素を文字列で出力
 		     String valName = (String)entry.getValue();
+		     //key→valueの順に出力する
              System.out.println(keyName + valName);
           
 		}
