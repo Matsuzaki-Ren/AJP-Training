@@ -1,11 +1,9 @@
-CREATE DATABASE TASK_DB;
-
 CREATE TABLE T_USER (
-  USER_ID varchar(12),
-  USER_NM varchar(10),
-  PASSWORD varchar(8),
-  OFFICE_CD varchar(4),
+  USER_ID varchar(12) PRIMARY KEY NOT NULL,
+  USER_NM varchar(10) NOT NULL,
+  PASSWORD varchar(8) NOT NULL,
+  OFFICE_CD varchar(4) NOT NULL,
   BIRTHDAY datetime,
   SENIORITY int (2),
-  DELET_FLG varchar (1)
+  DELET_FLG varchar (1) NOT NULL
 )
