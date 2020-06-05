@@ -5,5 +5,5 @@ CREATE TABLE T_USER (
   OFFICE_CD varchar(4) NOT NULL,
   BIRTHDAY datetime,
   SENIORITY int (2),
-  DELET_FLG varchar (1) NOT NULL
+  DELET_FLG varchar (1) NOT NULL DEFAULT 0
 )
