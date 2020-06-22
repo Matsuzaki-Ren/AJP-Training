@@ -1,0 +1,33 @@
+body {
+  width: 100%;
+}
+
+.aka_kuro{
+  width: 1500px;
+  overflow: hidden;
+  height: 360px;
+}
+
+.ao_tyairo{
+  width: 1500px;
+  overflow: hidden;
+  height: 180px;
+}
+
+.kiiro{
+  width: 1500px;
+  overflow: hidden;
+  height: 180px;
+}
+
+.aka_kuro {
+  background: linear-gradient(90deg, #FF0000 0%, #FF0000 50%, #000000 50%, #000000 100%);
+}
+
+.ao_tyairo {
+  background: linear-gradient(to right, #00B0F0 25%, #A9D18E 25% 50%, #2E75B6 50% 75%, #C55A11 75%);
+}
+
+.kiiro{
+  background: #FFD966;
+}
