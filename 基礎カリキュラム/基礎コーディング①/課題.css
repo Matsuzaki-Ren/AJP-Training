@@ -1,0 +1,23 @@
+body {
+  width: 100%;
+}
+
+.right_left{
+  width: 1500px;
+  overflow: hidden;
+  height: 375px;
+}
+
+.top_down{
+  width: 1500px;
+  overflow: hidden;
+  height: 375px;
+}
+
+.right_left {
+  background: linear-gradient(90deg, #FF0000 50%, #FFFF00 50%);
+}
+
+.top_down{
+  background: #00B0F0;
+}
