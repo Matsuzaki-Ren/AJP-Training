@@ -1,0 +1,270 @@
+.body {
+   background-color:#F6F6F6
+}
+
+ ul { 
+   list-style-type: square; 
+   
+ }
+
+.header {
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    background-color: #7CCFCD;
+}
+
+.logo img {
+  margin:-40px 395px;
+  width: 207px; 
+  height: 207px;
+  object-fit: contain;
+}
+
+.comment1 {
+  font-size: 8px;
+  position: relative;
+  top: -110px;
+  left: 957px;
+}
+
+.tell {
+  position: relative;
+  top: -93px;
+  left: 952px;
+}
+
+.tellnumber {
+  font-size: 20.5px;  
+  position: relative;
+  top: -120px;
+  left: 984px;
+}
+
+.time {
+  font-size: 7px;
+  position: relative;
+  top: -99px;
+  left: 957px;
+}
+
+
+.nitiyou {
+  color: #C5898A
+}
+
+.box1 {
+
+    border: solid 0.5px #D6D6D6;
+    padding: 0.8px 18px 0.8px 18px;
+    display: inline-block;
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+#menu {
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+  top: -400px;
+  left: 400px;
+  border-radius: 10px;
+}
+ 
+#menu li {
+  width: 146px;
+  text-align: center;
+  background:linear-gradient(#98E1DF ,#92DEDC, #6EC8C6);
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 2px;
+  font-weight: bold;
+}
+
+
+
+.inimg {
+  position: relative;
+  top: -35px;
+  left: 610px;
+}
+
+.container {
+    width: 32.3%;
+    padding: 10px 18px 10px 18px;
+    background-color:#FFFFFF;
+    position: relative;
+    top: -95px;
+    left: 610px;
+  
+}
+
+.sintyaku {
+    font-size: 100%;
+    font-weight: bold;
+    color: #515151;
+    padding: 10px 0;
+    border-bottom: solid 2px #7CCFCD;
+}
+
+.topics dl {
+padding: 20px 0;
+border-bottom: 1px solid #ccc;
+}
+
+.topics dt {
+padding-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+.topics dt {
+font-size: 10px;
+clear: left;
+float: left;
+width: 20%;
+}
+.topics dd {
+font-size: 10px;
+margin-left: 25%;
+}
+}
+
+.navititle {
+  position: relative;
+  top: -693px;
+  left: 400px;
+}
+
+
+.n-title {
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 170px;
+  display: block;
+  background:linear-gradient(#98E1DF ,#92DEDC, #6EC8C6);
+  color: #fff;
+}
+
+.navi {
+
+  margin: 0 0 2em;
+  padding: 0;
+}
+
+.navi li { display: inline; }
+
+.navi li a {
+  padding: 5px 10px;
+  width: 170px;
+  display: block;
+  background-color: #FFFFFF;
+  color: #515151;
+  font-weight: bold;
+}
+
+.navi li a:hover {
+  text-decoration: underline;
+  background-color: #FFFFFF;
+  color: #ff0000;
+}
+
+
+.navititle2 {
+  position: relative;
+  top: -693px;
+  left: 400px;
+}
+
+
+.n-title2 {
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 170px;
+  display: block;
+  background:linear-gradient(#98E1DF ,#92DEDC, #6EC8C6);
+  color: #fff;;
+}
+
+.navi2 {
+  list-style-type: none;
+  margin: 0 0 2em;
+  padding: 0;
+}
+
+.navi2 li { display: inline; }
+
+.navi2 li a {
+  padding: 5px 10px;
+  width: 170px;
+  display: block;
+  background-color: #FFFFFF;
+  color: #515151;
+  font-weight: bold;
+}
+
+.navi2 li a:hover {
+  text-decoration: underline;
+  background-color: #FFFFFF;
+  color: #ff0000;
+}
+
+.last {
+  position: relative;
+  top: -840px;
+  left: 10px;
+}
+ 
+#easymenu {
+  border-radius: 10px;
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+  top: 400px;
+  left: 400px;
+}
+ 
+#easymenu li {
+  width: 140px;
+  text-align: center;
+  background:linear-gradient(#98E1DF ,#92DEDC, #6EC8C6);
+  float: left;
+  font-size: 13px;
+}
+ 
+#easymenu li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.kenri {
+  font-size: 11px;
+  position: relative;
+  top: 450px;
+  left: 660px; 
+}
+
+.access {
+  font-size: 11px;
+  position: relative;
+  top: 405px;
+  left: 760px; 
+}
+
+.inmei {
+  font-weight: bold;
+}
+
+hr {
+ height: 2px;
+ background-color: #7CCFCD;
+ width: 47%;
+ border: none;
+ position: relative;
+ top: -430px;
+ left: 10px; 
+}
